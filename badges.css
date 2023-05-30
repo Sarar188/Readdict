@@ -1,0 +1,924 @@
+
+@media (max-width :412px){
+.badges-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.badges-badgespage {
+  width: 100%;
+  height: 892px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.badges-topappbar {
+  gap: 6px;
+  top: 0px;
+  left: 0px;
+  width: 412px;
+  height: 64px;
+  display: flex;
+  padding: 8px 4px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: var(--dl-color-m3_sys_light-surface);
+}
+.badges-leadingicon {
+  gap: 10px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-container1 {
+  gap: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+}
+.badges-statelayer {
+  gap: 10px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.badges-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-icon1 {
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.badges-text {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  width: 296px;
+  height: auto;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.badges-trailingicon {
+  gap: 10px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-container2 {
+  gap: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+}
+.badges-statelayer01 {
+  gap: 10px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.badges-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.badges-navigationbar {
+  gap: 8px;
+  top: 812px;
+  left: 0px;
+  width: 412px;
+  display: flex;
+  padding: 0 8px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-m3_sys_light-surfacecontainer);
+}
+.badges-segment1 {
+  gap: 4px;
+  width: 72.80000305175781px;
+  display: flex;
+  padding: 12px 0 16px 0;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-iconcontainer {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  justify-content: center;
+}
+.badges-statelayer02 {
+  gap: 10px;
+  width: 64px;
+  height: 32px;
+  display: flex;
+  padding: 4px 20px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-icon3 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-home {
+  top: 2.999999761581421px;
+  left: 4px;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+}
+.badges-text02 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 16px;
+}
+.badges-segment2 {
+  gap: 4px;
+  width: 72.80000305175781px;
+  display: flex;
+  padding: 12px 0 16px 0;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-iconcontainer1 {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  justify-content: center;
+}
+.badges-statelayer03 {
+  gap: 10px;
+  width: 64px;
+  height: 32px;
+  display: flex;
+  padding: 4px 20px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-icon4 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-librarybooks {
+  top: 1.9999998807907104px;
+  left: 1.9999998807907104px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.badges-text04 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 16px;
+}
+.badges-segment3 {
+  gap: 4px;
+  width: 72.80000305175781px;
+  display: flex;
+  padding: 12px 0 16px 0;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-iconcontainer2 {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  justify-content: center;
+}
+.badges-statelayer04 {
+  gap: 10px;
+  width: 64px;
+  height: 32px;
+  display: flex;
+  padding: 4px 20px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-icon5 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-search {
+  top: 2.999999761581421px;
+  left: 2.999999761581421px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.badges-text06 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 16px;
+}
+.badges-segment4 {
+  gap: 4px;
+  width: 72.80000305175781px;
+  display: flex;
+  padding: 12px 0 16px 0;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-iconcontainer3 {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 16px;
+  justify-content: center;
+}
+.badges-statelayer05 {
+  gap: 10px;
+  width: 64px;
+  height: 32px;
+  display: flex;
+  padding: 4px 20px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-icon6 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-insights {
+  top: 2.999999761581421px;
+  left: 0.9999998211860657px;
+  width: 22px;
+  height: 17px;
+  position: absolute;
+}
+.badges-text08 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 16px;
+}
+.badges-segment5 {
+  gap: 4px;
+  width: 72.80000305175781px;
+  display: flex;
+  padding: 12px 0 16px 0;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-iconcontainer4 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-m3_sys_light-secondarycontainer);
+}
+.badges-statelayer06 {
+  width: 64px;
+  height: 32px;
+  display: flex;
+  padding: 4px 20px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-icon7 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-militarytech {
+  top: 1.9999998807907104px;
+  left: 7px;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+}
+.badges-text10 {
+  color: var(--dl-color-m3-black);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 16px;
+}
+.badges-horizontalcard {
+  top: 102px;
+  left: 24px;
+  width: 360px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+.badges-contentcontainer {
+  width: 360px;
+  height: 120px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: rgba(202, 196, 208, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+}
+.badges-header {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.badges-content {
+  gap: 16px;
+  display: flex;
+  padding: 22px 16px 50px 16px;
+  flex-grow: 1;
+  align-items: center;
+}
+.badges-text12 {
+  gap: 4px;
+  width: 248px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-text13 {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+}
+.badges-text15 {
+  color: var(--dl-color-m3_sys_light-secondary);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+}
+.badges-media {
+  width: 80px;
+  height: 120px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: rgba(202, 196, 208, 1);
+  border-style: solid;
+  
+}
+.badges-media1 {
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 120px;
+  position: absolute;
+}
+.badges-linearprogressindicator {
+  top: 195.08392333984375px;
+  left: 40px;
+  width: 223px;
+  height: 4.285714626312256px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: var(--dl-color-m3_sys_light-surfacecontainerhighest);
+}
+.badges-progressbar {
+  top: 0px;
+  left: 0px;
+  width: 167px;
+  height: 4.285714626312256px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: var(--dl-color-m3_sys_light-primary);
+}
+.badges-listitem-list-item-density {
+  top: 317px;
+  left: 0px;
+  width: 412px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-m3_sys_light-surface);
+}
+.badges-statelayer07 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 24px 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-leadingelement {
+  height: 64px;
+  display: flex;
+  padding: 5px 10px 43px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-building-blocksimage-thumbnail {
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-thumbnail {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.badges-content1 {
+  width: 226px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-text17 {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.badges-text19 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+}
+.badges-text21 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: right;
+  line-height: 16px;
+}
+.badges-divider {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-divider01 {
+  width: 412px;
+  height: 1px;
+  align-self: stretch;
+}
+.badges-listitem-list-item-density1 {
+  top: 406px;
+  left: 0px;
+  width: 412px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-m3_sys_light-surface);
+}
+.badges-statelayer08 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 24px 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-leadingelement1 {
+  height: 64px;
+  display: flex;
+  padding: 5px 10px 43px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-building-blocksimage-thumbnail1 {
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-thumbnail1 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.badges-content2 {
+  width: 226px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-text23 {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.badges-text25 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+}
+.badges-text27 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: right;
+  line-height: 16px;
+}
+.badges-divider02 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-divider03 {
+  width: 412px;
+  height: 1px;
+  align-self: stretch;
+}
+.badges-listitem-list-item-density2 {
+  top: 495px;
+  left: 0px;
+  width: 412px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-m3_sys_light-surface);
+}
+.badges-statelayer09 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 24px 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-leadingelement2 {
+  height: 64px;
+  display: flex;
+  padding: 5px 10px 43px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-building-blocksimage-thumbnail2 {
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-thumbnail2 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.badges-content3 {
+  width: 226px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-text29 {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.badges-text31 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+}
+.badges-text33 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: right;
+  line-height: 16px;
+}
+.badges-divider04 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-divider05 {
+  width: 412px;
+  height: 1px;
+  align-self: stretch;
+}
+.badges-listitem-list-item-density3 {
+  top: 584px;
+  left: 0px;
+  width: 412px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-m3_sys_light-surface);
+}
+.badges-statelayer10 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 24px 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-leadingelement3 {
+  height: 64px;
+  display: flex;
+  padding: 5px 10px 43px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-building-blocksimage-thumbnail3 {
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-thumbnail3 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.badges-content4 {
+  width: 226px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-text35 {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.badges-text37 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+}
+.badges-text39 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: right;
+  line-height: 16px;
+}
+.badges-divider06 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-divider07 {
+  width: 412px;
+  height: 1px;
+  align-self: stretch;
+}
+.badges-listitem-list-item-density4 {
+  top: 673px;
+  left: 0px;
+  width: 412px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-m3_sys_light-surface);
+}
+.badges-statelayer11 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 24px 12px 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.badges-leadingelement4 {
+  height: 64px;
+  display: flex;
+  padding: 5px 10px 43px 10px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-building-blocksimage-thumbnail4 {
+  gap: 10px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.badges-thumbnail4 {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.badges-content5 {
+  width: 226px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.badges-text41 {
+  color: var(--dl-color-m3_sys_light-onsurface);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.badges-text43 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+}
+.badges-text45 {
+  color: var(--dl-color-m3_sys_light-onsurfacevariant);
+  height: auto;
+  text-align: right;
+  line-height: 16px;
+}
+.badges-divider08 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.badges-divider09 {
+  width: 412px;
+  height: 1px;
+  align-self: stretch;
+}
+.badges-text47 {
+  top: 260px;
+  left: 24px;
+  color: rgba(0, 0, 0, 1);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 28px;
+}
+
+}

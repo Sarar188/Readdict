@@ -1,0 +1,480 @@
+@media (max-width :412px){
+
+  .TopBarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 4px;
+    gap: 4px;
+    
+    position: absolute;
+    width: 412px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    
+    
+    
+    background: #FEF7FF;
+
+   }
+
+   .Profile{
+    position: absolute;
+    left:380px;
+   }
+   
+   .NameTop{
+
+    width: 296px;
+height: 28px;
+
+/* M3/title/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+position: absolute;
+left:55px;
+text-align: center;
+
+/* M3/sys/light/on-surface */
+
+color: #1D1B20;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+   }
+
+   .CurrentlyReadingText{
+    position: absolute;
+width: 182px;
+height: 28px;
+left: 24px;
+top: 100px;
+
+/* M3/title/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+
+color: #000000;
+
+   }
+
+  .Book-Cover{
+
+    position: absolute;
+    width: 103px;
+    height: 151.91px;
+    left: 155px;
+      top: 170px;
+
+background: #D9D9D9;
+border-radius: 28px;
+   }
+
+   .right{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left:300px;
+    top:220px;
+
+   }
+
+   .left{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left:40px;
+    top:220px;
+
+   }
+
+   .ProgressBar{
+
+    position: absolute;
+    width: 116px;
+    height: 4px;
+    left: 0px;
+    top: 170.91px;
+
+/* M3/sys/light/surface-container-highest */
+
+    background: #E6E0E9;
+    border-radius: 12px;
+
+   }
+
+   .ProgressBarFill{
+    position: absolute;
+    left: 0%;
+    right: 75%;
+    top: 0%;
+    bottom: 0%;
+    width: 0%;
+    /* M3/sys/light/primary */
+    
+    background: #6750A4;
+    border-radius: 12px;
+   }
+
+
+   .YourGoalsText{
+    position: absolute;
+width: 182px;
+height: 28px;
+left: 24px;
+top: 400px;
+
+/* M3/title/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+
+color: #000000;
+
+   }
+
+
+   .your-Goals-Block{
+
+       position: absolute;
+       width: 300px;
+       height: 150px;
+       background: #F7F2FA;
+       left:40px;
+       top:450px;
+/* M3/Elevation Light/1 */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0
+   }
+
+   .your-Goals-Stext{
+
+    width: 252px;
+height: 24px;
+left:20px;
+top:20px;
+position: absolute;
+
+/* M3/title/medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+
+/* M3/sys/light/on-surface */
+
+color: #1D1B20;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+   }
+
+   .ProgressBarGoals{
+
+    position: absolute;
+    width: 245.7px;
+    height: 4px;
+    left: 52.18px;
+    top: 530px;
+    
+    /* M3/sys/light/surface-container-highest */
+    
+    background: #E6E0E9;
+    border-radius: 12px;
+   }
+
+   .ProgressBarFillGoals{
+    position: absolute;
+    left: 0%;
+    right: 75%;
+    top: 0%;
+    bottom: 0%;
+    width: 0%;
+    /* M3/sys/light/primary */
+    
+    background: #6750A4;
+    border-radius: 12px;
+    
+   }
+   .Streak-Block{
+    position: absolute;
+       width: 300px;
+       height: 150px;
+       background: #F7F2FA;
+       left:40px;
+       top:650px;
+/* M3/Elevation Light/1 */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+   }
+
+
+  .YourShelvesText{
+
+    position: absolute;
+width: 182px;
+height: 28px;
+left: 24px;
+top: 850px;
+
+/* M3/title/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+  }
+
+  .All-book-Cover{
+
+    position: absolute;
+width: 75.94px;
+height: 112px;
+left: 42.94px;
+top: 930px;
+
+background: #D9D9D9;
+border-radius: 15px;
+  }
+
+
+  .Curr-book-Cover{
+
+    position: absolute;
+width: 75.94px;
+height: 112px;
+left: 162.94px;
+top: 930px;
+
+background: #D9D9D9;
+border-radius: 15px;
+  }
+
+
+  .Add-book-Cover{
+
+    position: absolute;
+width: 75.94px;
+height: 112px;
+left: 282.94px;
+top: 930px;
+
+background: #D9D9D9;
+border-radius: 15px;
+  }
+
+ .All-Book-Number{
+  position: absolute;
+  width: 84px;
+  height: 12px;
+  left: 39px;
+  top: 1065px;
+  
+  /* M3/label/small */
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  /* or 145% */
+  
+  text-align: center;
+  letter-spacing: 0.5px;
+  
+  color: #989DA1;
+
+ }
+
+ .All-Book-text{
+  position: absolute;
+width: 66px;
+height: 12px;
+left: 46px;
+top: 1049px;
+
+/* M3/label/medium - prominent */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #000000;
+
+  
+ }
+
+ .NavigationBar{
+
+    
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 8px;
+  gap: 8px;
+  overflow-x: hidden;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom:0%;
+  
+  
+  
+  
+  /* M3/sys/light/surface-container */
+  
+  background: #F3EDF7;
+  
+     }
+  
+     .HomeNav{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top:15px;
+      left:30px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+     }
+     .LibraryNav{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top:15px;
+      left:100px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+     }
+     .SearchNav{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top:15px;
+      left:170px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+     }
+     .StatsNav{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top:15px;
+      left:240px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+     }
+  
+     .BadgesNav{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top:15px;
+      left:310px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  
+     }
+  
+     .NameTop{
+  
+      width: 296px;
+  height: 28px;
+  
+  /* M3/title/large */
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 127% */
+  position: absolute;
+  left:55px;
+  text-align: center;
+  
+  /* M3/sys/light/on-surface */
+  
+  color: #1D1B20;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+     }
+  
+}

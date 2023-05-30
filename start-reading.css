@@ -1,0 +1,650 @@
+@media (max-width :412px){
+
+   .TopBarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 4px;
+    gap: 4px;
+    
+    position: absolute;
+    width: 412px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    
+    
+    
+    background: #FEF7FF;
+
+   }
+
+   .filterChip{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 86px;
+height: 40px;
+left: 20px;
+top: 90px;
+
+/* M3/sys/light/outline */
+
+border: 1px solid #79747E;
+border-radius: 8px;
+   }
+
+   .FilterText{
+    width: 50px;
+    height: 15px;
+    
+    /* M3/label/large */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+    /* M3/sys/light/on-surface-variant */
+    
+    color: #49454F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+
+   .BookCover{
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    left: 156px;
+    top: 148px;
+    
+    background: #D9D9D9;
+    border-radius: 12px;
+
+   }
+
+
+   .BookSquare{
+
+    box-sizing: border-box;
+
+position: absolute;
+width: 347px;
+height: 262px;
+left: 33px;
+top: 216px;
+
+background: #FEF7FF;
+border: 1px solid #DDDAE1;
+border-radius: 12px;
+   
+   }
+
+   .title{
+
+    position: absolute;
+width: 215px;
+height: 28px;
+left: 155px;
+top: 300px;
+
+/* M3/headline/small */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+   }
+
+   .AuthorName{
+    position: absolute;
+    width: 215px;
+    height: 16px;
+    left: 187px;
+    top: 330px;
+    
+    /* M3/body/medium */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+    
+    color: #49454F;
+    
+
+   }
+
+   .star{
+
+    position: absolute;
+    width: 24px;
+   height: 24px;
+   left: 60px;
+   top: 368px;
+   }
+   
+   .Divider{
+
+    width: 57px;
+   height: 0px;
+  border: 1px solid #CAC4D0;
+transform: rotate(90deg);
+flex: none;
+order: 0;
+flex-grow: 1;
+    position: absolute;
+    top:380px;
+    left:130px;
+   }
+
+   .SDivider{
+
+    width: 57px;
+   height: 0px;
+  border: 1px solid #CAC4D0;
+transform: rotate(90deg);
+flex: none;
+order: 0;
+flex-grow: 1;
+    position: absolute;
+    top:380px;
+    left:250px;
+   }
+
+   .RatingText{
+
+    position: absolute;
+width: 35.89px;
+height: 24px;
+left: 90px;
+top: 367px;
+
+/* M3/body/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #000000;
+
+   }
+
+   .SRatingText{
+
+    position: absolute;
+width: 62px;
+height: 16px;
+left: 75px;
+top: 393px;
+
+/* M3/body/small
+
+0.4
+*/
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #49454F;
+
+   }
+
+   .Genre{
+    position: absolute;
+width: 95px;
+height: 24px;
+left: 198px;
+top: 362px;
+
+/* M3/body/medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.25px;
+
+color: #000000;
+
+   }
+   .SGenre{
+    position: absolute;
+width: 62px;
+height: 16px;
+left: 201px;
+top: 390px;
+
+/* M3/body/small
+
+0.4
+*/
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #49454F;
+
+
+   }
+
+   .BookBadge{
+    position: absolute;
+    width: 24px;
+   height: 20px;
+   left: 235px;
+   
+
+   }
+   
+   .BookB{
+
+    position: absolute;
+    width: 24px;
+   height: 24px;
+   left: 60px;
+   top: 368px;
+   }
+
+   .PageNo{
+    position: absolute;
+    width: 35.89px;
+    height: 24px;
+    left: 321.11px;
+    top: 367px;
+    
+    /* M3/body/large */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #000000;
+    
+
+   }
+
+   .SPagesNo{
+    position: absolute;
+    width: 62px;
+    height: 16px;
+    left: 310px;
+    top: 394px;
+    
+    /* M3/body/small
+    
+    0.4
+    */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #49454F;
+    
+    
+   }
+
+   .HDivider{
+    width: 347px;
+    height: 0px;
+    position: absolute;
+    top:420px;
+    left:31px;
+    /* M3/sys/light/outline-variant */
+    
+    border: 1px solid #CAC4D0;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+   }
+
+   .description{
+
+    width: 73px;
+height: 20px;
+
+/* M3/label/large */
+position: absolute;
+top:440px;
+left:290px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+/* M3/sys/light/primary */
+
+color: #6750A4;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+   }
+
+   .startReadingButton{
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 250px;
+height: 40px;
+left: 43px;
+top: 514px;
+
+/* M3/sys/light/primary */
+
+background: #6750A4;
+border-radius: 100px;
+   }
+
+   .StartReadingText{
+
+    width: 87px;
+height: 20px;
+
+/* M3/label/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+
+/* M3/sys/light/on-primary */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+   }
+
+   .TBR{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 85px;
+height: 40px;
+left: 295px;
+top: 513px;
+
+/* M3/sys/light/secondary-container */
+
+background: #E8DEF8;
+border-radius: 100px;
+   }
+
+   .TBRText{
+
+    
+    
+    /* M3/label/large */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    
+    /* M3/sys/light/on-secondary-container */
+    
+    color: #1D192B;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+   }
+   .Profile{
+    position: absolute;
+    left:380px;
+   }
+   
+   .NavigationBar{
+
+    
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 8px;
+gap: 8px;
+overflow-x: hidden;
+position: fixed;
+width: 412px;
+height: 50px;
+bottom:0%;
+
+
+
+/* M3/sys/light/surface-container */
+
+background: #F3EDF7;
+
+   }
+
+   .HomeNav{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:15px;
+    left:30px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+   .LibraryNav{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:15px;
+    left:100px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+   .SearchNav{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:15px;
+    left:170px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+   .StatsNav{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:15px;
+    left:240px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+
+   .BadgesNav{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:15px;
+    left:310px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+   }
+
+   .NameTop{
+
+    width: 296px;
+height: 28px;
+
+/* M3/title/large */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+position: absolute;
+left:55px;
+text-align: center;
+
+/* M3/sys/light/on-surface */
+
+color: #1D1B20;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+   }
+
+  
+
+}
